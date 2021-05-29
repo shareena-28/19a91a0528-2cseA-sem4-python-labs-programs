@@ -1,0 +1,16 @@
+"""
+5.3-Implen=ment a python Script to count number of words
+in a string and reverse each word in a string at the same location.
+example: input honesty is the best policy output:5 ytseno Hsiehttsebycilops=input("enter the string:")
+"""
+res=len(s.split())
+print("the number of words in string are:"+str(res))
+w=s.split(" ")
+nw=[i[::-1]for i in w]
+ns="".join(nw)
+print(ns)
+
+#output
+enter the string :Iam Shareena Nirmala from CSE A
+The number of words in string are :6
+maI aneerahS alamriN morf ESC A
